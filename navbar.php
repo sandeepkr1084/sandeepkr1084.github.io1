@@ -11,6 +11,29 @@
   <link rel="stylesheet" type="text/css" href="index.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script type="text/javascript" src="index.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+
+ <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBIy93Ehh6TmNbM2vOZo0bh0q6Jaj9sN2c",
+    authDomain: "sandeep-kumar-saw.firebaseapp.com",
+    databaseURL: "https://sandeep-kumar-saw-default-rtdb.firebaseio.com",
+    projectId: "sandeep-kumar-saw",
+    storageBucket: "sandeep-kumar-saw.appspot.com",
+    messagingSenderId: "2042266998",
+    appId: "1:2042266998:web:af73e826cb987a0b476657"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  
 </head>
 <body style="background-color: #292621">
   
