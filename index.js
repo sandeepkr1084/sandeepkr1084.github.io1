@@ -30,6 +30,22 @@ function display2() {
     	p.style.display = "none";
 	}
 }
+function display3() {
+	var p = document.getElementById("project3");
+	var d = document.getElementById("dotsp3");
+	var b = document.getElementById("btnp3");
+	if(p.style.display === "none") {
+		d.style.display = "none";
+    	b.innerHTML = "View less";
+    	p.style.display = "inline";
+	}  
+	else{
+		d.style.display = "inline";
+    	b.innerHTML = "View more"; 
+    	p.style.display = "none";
+	}
+}
+
 function redirect()
 {
 	const message = document.getElementById("contact_message").value;
